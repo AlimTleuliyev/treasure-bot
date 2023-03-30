@@ -65,9 +65,9 @@ teams = {
 users = {}
 admins = set()
 
-BOT_API_KEY = "1482841204921" # Put your bot's API key here
+BOT_API_KEY = "" # Put your bot's API key here
 
-bot = telebot.TeleBot(BOT_API_KEY)  
+bot = telebot.TeleBot(BOT_API_KEY)
 
 def display_stations():
 	keyboard = types.ReplyKeyboardMarkup(resize_keyboard=True)
